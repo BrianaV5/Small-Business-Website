@@ -1,6 +1,6 @@
 body {
 background-color: white;
-color: black;
+color: rgb(82, 75, 75);
 margin: 0;
 font-family: Arial, sans-serif;
 }
@@ -8,9 +8,9 @@ font-family: Arial, sans-serif;
 header {
     background-color: rgb(228, 239, 247);
     padding: 20px;
-
-
+    display: flex;
 }
+
 h1 {
     color: rgb(80, 80, 124);
     font-style: italic;
@@ -37,8 +37,9 @@ nav a {
  }
 
  #cta {
-    font-size: 30px;
+    font-size: 48px;
     margin-top: 15px;
+    color: rgb(80, 80, 124);
  }
  p {
     font-size: 16px;
@@ -54,26 +55,31 @@ nav a {
     margin-bottom: 20px;
     border: 1px solid gray;
  }
-
  .container div {
     margin: 10px;
  }
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
 .hero {
+   display: flex;
    padding: 40px 30px;
 }
 .hero-text {
    font-size: 20px;
    margin-bottom: 15px;
-   color: rgb(80, 80, 124)
+   color: rgb(66, 66, 71);
+   font-family: Georgia, serif;
 }
-#cta {
-   font-size: 48px;
-   color: rgb(80, 80, 124);
+.hero img {
+   width: 200px;
+   margin-left: 150px;
 }
  h2, h3, h4 {
     margin-bottom: 10px;
     color: rgb(50, 49, 49);
-
  }
 
  a:hover, button:hover {
