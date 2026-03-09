@@ -4,7 +4,7 @@ color: rgb(82, 75, 75);
 margin: 0;
 font-family: Arial, sans-serif;
 }
-
+/* Used W3schools for flexbot*/
 header {
     background-color: rgb(228, 239, 247);
     padding: 20px;
@@ -16,6 +16,7 @@ h1 {
     font-style: italic;
     margin: 0;
 }
+
 nav {
     margin-top: 15px;
     margin-left: 30px;
@@ -26,7 +27,7 @@ nav a {
     text-decoration:none;
     margin-right: 15px;
  }
-
+/* hover for navigation */
  nav a:hover {
     color: rgb(50, 49, 49);
     text-decoration: underline;
@@ -41,6 +42,7 @@ nav a {
     margin-top: 15px;
     color: rgb(80, 80, 124);
  }
+
  p {
     font-size: 16px;
  }
@@ -58,6 +60,7 @@ nav a {
  .container div {
     margin: 10px;
  }
+ /*flexbot for containers*/
  .container {
     display: flex;
     flex-wrap: wrap;
@@ -67,29 +70,33 @@ nav a {
    display: flex;
    padding: 40px 30px;
 }
+
 .hero-text {
    font-size: 20px;
    margin-bottom: 15px;
    color: rgb(66, 66, 71);
    font-family: Georgia, serif;
 }
+
 .hero img {
    width: 200px;
-   margin-left: 150px;
+   margin-left: 150px;/* trying to make the image go on the right*/
 }
+
  h2, h3, h4 {
     margin-bottom: 10px;
     color: rgb(50, 49, 49);
  }
-
+/* hover for button*/
  a:hover, button:hover {
     opacity: 0.7;
     cursor: pointer;
  }
-
+/*hover for different services*/
  .service:hover {
     background-color: rgb(223, 243, 247);
  }
+ 
  button {
    padding: 10px 14px;
    background-color: rgb(80, 80, 124);
